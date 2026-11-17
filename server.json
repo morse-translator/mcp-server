@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.morsecodetranslator/mcp-server",
+  "title": "Morse Code Translator",
+  "description": "Translate text to Morse code and back, get the sound as audio, and get the alphabet.",
+  "version": "1.1.0",
+  "websiteUrl": "https://morsecodetranslator.com",
+  "repository": {
+    "url": "https://github.com/morse-translator/mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://morsecodetranslator.com/assets/icons/maskable-512x512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://morsecodetranslator.com/mcp/"
+    }
+  ]
+}

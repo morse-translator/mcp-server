@@ -1,0 +1,11 @@
+{
+  "name": "morse-code-translator-mcp",
+  "version": "1.1.0",
+  "description": "MCP server for translating text to International Morse code and Morse code to text, for the Morse code sound as a WAV file, and for looking up the Morse code alphabet.",
+  "mcpServers": {
+    "morse": {
+      "url": "https://morsecodetranslator.com/mcp/",
+      "type": "http"
+    }
+  }
+}
